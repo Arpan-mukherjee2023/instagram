@@ -1,0 +1,146 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+  }
+  
+  body {
+    background-color: #fafafa;
+    font-family: Arial, sans-serif;
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    background-color: #fb009f,#fe0202;
+
+  }
+  
+  .container {
+    max-width: 350px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    background-color: #fff;
+    border: 1px solid #dbdbdb;
+    border-radius: 5px;
+  }
+  
+  .logo {
+    margin-bottom: 20px;
+  }
+  
+  .logo img {
+    max-width: 200px;
+  }
+
+  .img{
+    height: 90px;
+    border-radius: 66px;
+    padding: -23px;
+  }
+
+  .title{
+    padding: 30px 0;
+    text-transform: capitalize;
+    font-size: 25px;
+    font-family:'pacifico',cursive
+  }
+  
+  .login-form input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #dbdbdb;
+    border-radius: 5px;
+  }
+  
+  .login-form button{
+    border: none;
+    width: 250px;
+    padding: 5px 0;
+    margin-top: 5px;
+    background: #043fff;
+    border-radius: 3px;
+    font-weight: bold;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    outline: none;
+    cursor: pointer;
+    color: #fff;
+    border: none;
+}
+
+.login-form button:active{
+    background: #2c58fe;
+    transform: scale(0.995);
+
+}
+
+form .option{
+    color: #5a5a5a;
+    margin: 10px 0;
+    font-weight: bold;
+    position: relative;
+}
+form .option:before{
+position: absolute;
+content: '';
+width: 37%;
+height: 2px;
+background: #b6b6b6;
+left: 0;
+top: 50%;
+transform: translateY(-50%);
+border-radius: 50px;
+}
+form .option:after{
+    position: absolute;
+    content: '';
+    width: 37%;
+    height: 2px;
+    background: #b6b6b6;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 50px;
+    }
+
+.fblink{
+
+    margin-top: 15px;
+    width: 300px;
+
+}
+
+.fblink span{
+    font-size: 18px;
+    color: #02189
+}
+
+.fblink a{
+    text-decoration: none;
+    font-weight:bold;
+    color: #021897;
+}
+
+.forget-id{
+    margin: 15px;
+}
+
+.forget-id a{
+    text-decoration: none;
+    color: 025fd2;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.signup-link a{
+    text-decoration: none;
+    margin-left: 5px;
+    color: #008aff;
+    font-weight:bold;
+
+}
